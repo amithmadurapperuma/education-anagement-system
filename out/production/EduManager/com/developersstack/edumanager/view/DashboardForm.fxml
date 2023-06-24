@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="context" prefHeight="465.0" prefWidth="1081.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.developersstack.edumanager.controller.DashboardFormController">
+   <children>
+      <Label layoutX="42.0" layoutY="15.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="40.0" layoutY="97.0" prefHeight="5.0" prefWidth="997.0" />
+      <Button layoutX="41.0" layoutY="146.0" mnemonicParsing="false" onAction="#studentOnAction" prefHeight="142.0" prefWidth="210.0" style="-fx-background-color: #4287f5;" text="Student" textFill="#f5f0f0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="828.0" layoutY="146.0" mnemonicParsing="false" onAction="#teachersOnAction" prefHeight="142.0" prefWidth="210.0" style="-fx-background-color: #595858;" text="Teachers" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="567.0" layoutY="146.0" mnemonicParsing="false" onAction="#intakeOnAction" prefHeight="142.0" prefWidth="210.0" style="-fx-background-color: #306962;" text="Intake" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="297.0" layoutY="146.0" mnemonicParsing="false" onAction="#programOnAction" prefHeight="142.0" prefWidth="210.0" style="-fx-background-color: #306937;" text="Program" textFill="#fcfcfc">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="316.0" mnemonicParsing="false" onAction="#registrationOnAction" prefHeight="80.0" prefWidth="997.0" style="-fx-background-color: #4a492a;" text="Registration" textFill="#eeeded">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblDate" layoutX="40.0" layoutY="58.0" prefHeight="30.0" prefWidth="148.0" text="Date" textAlignment="RIGHT" textFill="#494ab9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="207.0" layoutY="58.0" prefHeight="30.0" prefWidth="137.0" text="Time" textAlignment="RIGHT" textFill="#494ab9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="185.0" layoutY="56.0" orientation="VERTICAL" prefHeight="35.0" prefWidth="5.0" />
+      <Button layoutX="968.0" layoutY="17.0" mnemonicParsing="false" onAction="#logoutOnAction" text="Logout" textFill="#3b4da4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="41.0" layoutY="418.0" text="From: Developpersstack">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="933.0" layoutY="418.0" prefHeight="25.0" prefWidth="106.0" text="Version: 1.0.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtLoginUser" alignment="CENTER_RIGHT" layoutX="728.0" layoutY="61.0" prefHeight="17.0" prefWidth="311.0" text="Label" textFill="#3b4da4">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
